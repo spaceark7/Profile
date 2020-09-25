@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+.about-container {
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 100%;
+}
+.about {
+  background: #0e0e0e;
+}
+.left-text {
+  position: relative;
+  height: 100%;
+  padding: 20px 20px;
+}
+.about-title {
+  position: relative;
+  top: 30%;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.about-title h4 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.about-title h2 {
+  font-size: 36px;
+  color: aqua;
+  font-weight: 700;
+}
+.text-head {
+  position: relative;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  font-weight: 500;
+  left: 0;
+  transition: 0.8s;
+}
+.text-head:hover {
+  cursor: pointer;
+  left: 20px;
+
+  color: rgba(0, 255, 255, 1);
+}
+.about-experiences {
+  position: relative;
+  top: 30%;
+  padding: 50px;
+}
+.about-skills {
+  position: relative;
+  top: 30%;
+  padding: 50px;
+}
+.text-description {
+  font-weight: 600;
+  line-height: 25px;
+  font-family: "Nunito", sans-serif;
+}
+.text-description span {
+  color: aqua;
+  font-weight: 700;
+}
+
+.skill-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.skill-list .skill ul {
+  margin-inline-start: 0px !important;
+  padding-inline-start: 20px;
+  height: 100%;
+}
+.skill-list .skill ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skill {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.skill .prog {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.skill .bar-bg {
+  width: 50%;
+  height: 10px;
+  background: grey;
+}
+.skill .bar-bg .bar-prog {
+  height: 10px;
+  width: 80%;
+  background: aqua;
+}
+.prog p {
+  width: 40%;
+  margin: 0;
+  padding: 10px;
+}
