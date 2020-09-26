@@ -1,6 +1,15 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/About.css";
+import {
+  HTML,
+  CSS,
+  JS,
+  CSHARP,
+  CPLUS,
+  REACT,
+  ANDROID,
+} from "../assets/logo/logo.js";
 const About = () => {
   return (
     <div className="about-container">
@@ -13,7 +22,6 @@ const About = () => {
                 THE ROAD TO BE TECH TYCOON IS AHEAD <br />
               </h2>
             </div>
-
             <div className="about-experiences">
               <p className="text-head">background</p>
               <p className="text-description">
@@ -30,57 +38,6 @@ const About = () => {
               </p>
             </div>
 
-            <div className="about-skills">
-              <p className="text-head">skills</p>
-              <div className="skill-list">
-                <div className="skill">
-                  <ul>
-                    <li>
-                      <div className="prog">
-                        <p>HTML</p>
-                        <div className="bar-bg">
-                          <div className="bar-prog"></div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="prog">
-                        <p>CSS</p>
-                        <div className="bar-bg">
-                          <div className="bar-prog"></div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="prog">
-                        <p>Javascript</p>
-                        <div className="bar-bg">
-                          <div className="bar-prog"></div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="prog">
-                        <p>ReactJs</p>
-                        <div className="bar-bg">
-                          <div className="bar-prog"></div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="right-text col-md-6">
-            <div className="about-title">
-              <h4>My Vision</h4>
-              <h2>
-                FORESEE THE FUTURE
-                <br />
-                MAKE IT HAPPENS
-              </h2>
-            </div>
             <div className="about-experiences">
               <p className="text-head">Vision</p>
               <p className="text-description">
@@ -95,6 +52,27 @@ const About = () => {
                 content editor, Graphic design and digital marketing for a
                 retail company.
               </p>
+            </div>
+          </div>
+
+          <div className="right-text col-md-6">
+            <div className="about-title">
+              <h4>My Journey</h4>
+              <h2>
+                THE ROAD TO BE TECH TYCOON IS AHEAD <br />
+              </h2>
+            </div>
+            <div className="about-skills">
+              <p className="text-head">skills</p>
+              <div className="skill-list">
+                <img className="skill-logo" src={HTML} alt="" />
+                <img className="skill-logo" src={CSS} alt="" />
+                <img className="skill-logo" src={JS} alt="" />
+                <img className="skill-logo" src={REACT} alt="" />
+                <img className="skill-logo" src={CSHARP} alt="" />
+                <img className="skill-logo" src={CPLUS} alt="" />
+                <img className="skill-logo" src={ANDROID} alt="" />
+              </div>
             </div>
           </div>
         </div>
